@@ -4,12 +4,9 @@ for t in ["!", "?", ",", "."]:
     text = text.replace(t, "")
 print(text)
 
-
 wl = text.split()
 
-
 ue = set(wl)
-
 
 ce = len(ue)
 
@@ -21,8 +18,6 @@ word_frequency = {
 
 
 }
-
-
 
 for x in text.split():
     if x in word_frequency:
